@@ -1,0 +1,314 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1541580894593566}
+  m_IsPrefabParent: 1
+--- !u!1 &1541580894593566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4750292115052922}
+  - component: {fileID: 114387757140614416}
+  - component: {fileID: 114235877140828754}
+  - component: {fileID: 114759860218644660}
+  - component: {fileID: 114409182326796162}
+  - component: {fileID: 114600121783783012}
+  - component: {fileID: 114849763265149522}
+  - component: {fileID: 114402640091138302}
+  - component: {fileID: 114006074086572470}
+  m_Layer: 0
+  m_Name: gameManager
+  m_TagString: core
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4750292115052922
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541580894593566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.795704, y: -0.845029, z: -165.65625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114006074086572470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541580894593566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de35588813d04424999776eca7155bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vCam: {fileID: 0}
+--- !u!114 &114235877140828754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541580894593566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 234546e1dbcd4e640ae2c7365138fa01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BIOMESPAWN_OVERRIDE: 1
+  biomeToOverride: 1
+  BIOMELENGTH_OVERRIDE: 0
+  testNormalPieces:
+  - {fileID: 114266415630039052, guid: 86beea97dea2b3843a40eb249cf8dc1f, type: 2}
+  - {fileID: 114266415630039052, guid: 86beea97dea2b3843a40eb249cf8dc1f, type: 2}
+  - {fileID: 114990759684916566, guid: 463972a6b5f113a4ab3b1211d3864abd, type: 2}
+  - {fileID: 114990759684916566, guid: 463972a6b5f113a4ab3b1211d3864abd, type: 2}
+  testBossPieces:
+  - {fileID: 114090001568609940, guid: 8d243e80755c2d443994a4e5cc6eb46b, type: 2}
+  - {fileID: 114090001568609940, guid: 8d243e80755c2d443994a4e5cc6eb46b, type: 2}
+  - {fileID: 114090001568609940, guid: 8d243e80755c2d443994a4e5cc6eb46b, type: 2}
+  - {fileID: 114090001568609940, guid: 8d243e80755c2d443994a4e5cc6eb46b, type: 2}
+  - {fileID: 114090001568609940, guid: 8d243e80755c2d443994a4e5cc6eb46b, type: 2}
+  testBossStart: {fileID: 114090001568609940, guid: 4ab5595d4725f3f4e8d2acdd4eeb4e07,
+    type: 2}
+  grassNormalPieces:
+  - {fileID: 114839486578961774, guid: 464a5f5dae45ae94dbda00169b9bf685, type: 2}
+  - {fileID: 114816965813216852, guid: ed2c02cf3e628c041b33518e4fc151d9, type: 2}
+  - {fileID: 114386580693795472, guid: 10f8b49400800c9449ea76c7e6108ef0, type: 2}
+  - {fileID: 114259467760463834, guid: bcef3f16f6a081045bff436bbdb5edbc, type: 2}
+  - {fileID: 114403039083835122, guid: 5e77860ce89771241bbc9423de3696b3, type: 2}
+  grassBossPieces:
+  - {fileID: 114126372003574210, guid: 7a460344b023ee34796eed1c8555d42b, type: 2}
+  - {fileID: 114126372003574210, guid: 7a460344b023ee34796eed1c8555d42b, type: 2}
+  - {fileID: 114126372003574210, guid: 7a460344b023ee34796eed1c8555d42b, type: 2}
+  grassBossStart: {fileID: 114149168539391668, guid: 2275c1fab24a90a499769f0e360c8f82,
+    type: 2}
+  metalNormalPieces:
+  - {fileID: 114999841762546592, guid: 43fdebc34ff67f04aa6a6b6d8f573c30, type: 2}
+  - {fileID: 114395174334116106, guid: af3ac8ab01bdc444fb8ebb54663d8854, type: 2}
+  - {fileID: 114528092113889122, guid: a6fb5bd7e4838004faff1487c44ffef6, type: 2}
+  - {fileID: 114965431551581510, guid: 5910511c30ee8f64180df654c9028ede, type: 2}
+  - {fileID: 114164824260307244, guid: 873961737570290459ec1010a29a223a, type: 2}
+  - {fileID: 114762783272352948, guid: 9b37fd4023c011f4d889e5068aee5568, type: 2}
+  metalBossPieces:
+  - {fileID: 114872453720354582, guid: 0aee6e2b66dbcf74ebeee804ed0ee014, type: 2}
+  - {fileID: 114872453720354582, guid: 0aee6e2b66dbcf74ebeee804ed0ee014, type: 2}
+  - {fileID: 114872453720354582, guid: 0aee6e2b66dbcf74ebeee804ed0ee014, type: 2}
+  metalBossStart: {fileID: 114113318559013176, guid: e3f67e1601c54864183fbd4ca8e32d78,
+    type: 2}
+  heatNormalPieces:
+  - {fileID: 114545965620907480, guid: 2e6a65150fcd4a445b953f26ac8e2230, type: 2}
+  - {fileID: 114235222985688726, guid: 47ea7a9c70553354ba8ecbecaeee1985, type: 2}
+  - {fileID: 114864430580603982, guid: 1888944985ac87840ac0665e600776ce, type: 2}
+  - {fileID: 114220662356764746, guid: a8d9668a51484de46bf0549f8940b14b, type: 2}
+  - {fileID: 114892428948501118, guid: 690eed87136b5264089e07550905a53f, type: 2}
+  - {fileID: 114468626249441962, guid: c74c4f311cc007a45843c5df6c8a9507, type: 2}
+  heatBossPieces:
+  - {fileID: 114372775781175452, guid: 19df8349eef993c40b685cd37a7375df, type: 2}
+  - {fileID: 114372775781175452, guid: 19df8349eef993c40b685cd37a7375df, type: 2}
+  - {fileID: 114372775781175452, guid: 19df8349eef993c40b685cd37a7375df, type: 2}
+  heatBossStart: {fileID: 114372775781175452, guid: 19df8349eef993c40b685cd37a7375df,
+    type: 2}
+  biomeLength: 5
+  bufferLength: 1
+  minimumXPosition: -160
+  spawnPosition: {x: 0, y: 0, z: 0}
+  moveSpeed: 12
+  spawnTriggerX: 0
+  initialSpawnPosition: {x: 0, y: -6, z: 0}
+  LastSpawnedSegment: {fileID: 0}
+  spawnSegment: {fileID: 0}
+  activePool: []
+  activeSegments: []
+  normalSpawned: 0
+  bufferSpawned: 0
+  buffer: 0
+--- !u!114 &114387757140614416
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541580894593566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9de9d1beb79e7541af119156264ab6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cMove: {fileID: 0}
+  mainMenu: {fileID: 0}
+  characterMenu: {fileID: 0}
+  optionsMenu: {fileID: 0}
+  inGameOptionsMenu: {fileID: 0}
+  gameUI: {fileID: 0}
+  pauseUI: {fileID: 0}
+  deathUI: {fileID: 0}
+  aboutMenu: {fileID: 0}
+  loadingScreen: {fileID: 0}
+  quittingScreen: {fileID: 0}
+  player: {fileID: 1342836002486172, guid: 3587b77654fc66e4eb0cb809b4b4f019, type: 2}
+  masterVolSlider: {fileID: 0}
+  masterVolSliderInGame: {fileID: 0}
+  BGMVolSlider: {fileID: 0}
+  BGMVolSliderInGame: {fileID: 0}
+  SFXVolSlider: {fileID: 0}
+  SFXVolSliderInGame: {fileID: 0}
+  bossHealthSlider: {fileID: 0}
+  runTimeMins: {fileID: 0}
+  runTimeSecs: {fileID: 0}
+  minionKills: {fileID: 0}
+  bossKills: {fileID: 0}
+  buttonSound: {fileID: 8300000, guid: b219c8ca8ecc94fe584c131c7aead4af, type: 3}
+--- !u!114 &114402640091138302
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541580894593566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b57c88a7d5807004794fc2248bb84d37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  master: {fileID: 24100000, guid: 341d5234071d7c143a68970979e1f66e, type: 2}
+  BGM: {fileID: 24100000, guid: 87c3e6af25515b241bd4c16302124ddd, type: 2}
+  SFX: {fileID: 24100000, guid: 20c0b6539209b11468b6069693315e3c, type: 2}
+  changingBiomeSnap: {fileID: 245163216676975176, guid: 87c3e6af25515b241bd4c16302124ddd,
+    type: 2}
+  menuBGSnap: {fileID: 245467833813050316, guid: 87c3e6af25515b241bd4c16302124ddd,
+    type: 2}
+  genBGSnap: {fileID: 24500006, guid: 87c3e6af25515b241bd4c16302124ddd, type: 2}
+  bossBGSnap: {fileID: 245957780925014350, guid: 87c3e6af25515b241bd4c16302124ddd,
+    type: 2}
+  bossNearDeathBGSnap: {fileID: 245446143273644068, guid: 87c3e6af25515b241bd4c16302124ddd,
+    type: 2}
+  bossDeadBGSnap: {fileID: 245974258861540166, guid: 87c3e6af25515b241bd4c16302124ddd,
+    type: 2}
+  playerNearDeathBGSnap: {fileID: 245311247253713462, guid: 87c3e6af25515b241bd4c16302124ddd,
+    type: 2}
+  playerDeadBGSnap: {fileID: 245205323177578886, guid: 87c3e6af25515b241bd4c16302124ddd,
+    type: 2}
+  menuBG: {fileID: 0}
+  genBG: {fileID: 0}
+  bossBG: {fileID: 0}
+  bossNearDeathBG: {fileID: 0}
+  bossDeadBG: {fileID: 0}
+  playerNearDeathBG: {fileID: 0}
+  playerDeadBG: {fileID: 0}
+  playerSFX: {fileID: 0}
+  enemySFX: {fileID: 0}
+  ambientSFX: {fileID: 0}
+  menuSFX: {fileID: 0}
+  defaultTransitionTime: 2
+  defaultMasterVolume: 0
+  defaultBGMVolume: 0
+  defaultSFXVolume: 0
+  masterVolume: 0
+  BGMVolume: 0
+  SFXVolume: 0
+--- !u!114 &114409182326796162
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541580894593566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd218d2caead87542b9a93089e2aa365, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114600121783783012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541580894593566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f6d48711be5f134f986d513a4e444f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114759860218644660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541580894593566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c98c05cb92f4e68408b6bf39f3720cff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BOSS_SPAWN_OVERRIDE: 0
+  MINION_SPAWN_OVERRIDE: 0
+  spawnTimerBase: 1
+  testMinions:
+  - {fileID: 114615504749108520, guid: 1f081cbd12349cd4a91adcf9bfdfb44a, type: 2}
+  - {fileID: 114615504749108520, guid: 1f081cbd12349cd4a91adcf9bfdfb44a, type: 2}
+  - {fileID: 114615504749108520, guid: 1f081cbd12349cd4a91adcf9bfdfb44a, type: 2}
+  testBoss: {fileID: 114047849276433270, guid: 162add2a62c41a94f8d7d8c913ea2884, type: 2}
+  grassMinions:
+  - {fileID: 114323635798969650, guid: 5ef1ce5513440b342ac1e1a35876de04, type: 2}
+  - {fileID: 114379461296579594, guid: 657cb0fe470e2514aa6aa6745aa5528e, type: 2}
+  - {fileID: 114379461296579594, guid: 657cb0fe470e2514aa6aa6745aa5528e, type: 2}
+  - {fileID: 114379461296579594, guid: 657cb0fe470e2514aa6aa6745aa5528e, type: 2}
+  grassBoss: {fileID: 114546438527164940, guid: 773745b37f9fd22448ca200daad587ce,
+    type: 2}
+  metalMinions:
+  - {fileID: 114615504749108520, guid: 1f081cbd12349cd4a91adcf9bfdfb44a, type: 2}
+  - {fileID: 114615504749108520, guid: 1f081cbd12349cd4a91adcf9bfdfb44a, type: 2}
+  - {fileID: 114615504749108520, guid: 1f081cbd12349cd4a91adcf9bfdfb44a, type: 2}
+  metalBoss: {fileID: 114047849276433270, guid: 162add2a62c41a94f8d7d8c913ea2884,
+    type: 2}
+  heatMinions:
+  - {fileID: 114615504749108520, guid: 1f081cbd12349cd4a91adcf9bfdfb44a, type: 2}
+  - {fileID: 114615504749108520, guid: 1f081cbd12349cd4a91adcf9bfdfb44a, type: 2}
+  - {fileID: 114615504749108520, guid: 1f081cbd12349cd4a91adcf9bfdfb44a, type: 2}
+  heatBoss: {fileID: 114047849276433270, guid: 162add2a62c41a94f8d7d8c913ea2884, type: 2}
+  spawnChance: 20
+  spawnPointList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  canSpawnMinions: 0
+  activePool: []
+  activeMinions: []
+--- !u!114 &114849763265149522
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541580894593566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e25489ccf96cec44921f6111413cb35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceID: 3
+  genBG: {fileID: 0}
+  bossBG: {fileID: 0}
+  bossNearDeathBG: {fileID: 0}
+  bossDeadBG: {fileID: 0}
+  playerNearDeathBG: {fileID: 0}
+  playerDeadBG: {fileID: 0}
+  footstep: {fileID: 0}
+  attack: {fileID: 0}
+  damaged: {fileID: 0}
+  death: {fileID: 0}
+  attackHit: {fileID: 0}
+  blocked: {fileID: 0}
+  ambient: []

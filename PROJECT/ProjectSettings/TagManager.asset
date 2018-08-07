@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - playerWeapon
+  - ground
+  - hillDown
+  - hillUp
+  - enemy
+  - track
+  - enemyWeapon
+  - core
+  - Canvas
+  - playerShield
+  - defaultHidden
+  - enemyProjectile
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - GROUND
+  - TRIGGER
+  - PLATFORM
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3153924679
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Enemy
+    uniqueID: 1109891413
+    locked: 0
+  - name: Player
+    uniqueID: 2928362349
+    locked: 0
